@@ -14,18 +14,18 @@ es:
 [1, 3, 5] ==> [5, 3, 1]
 */
 
-/*
+
 let arr = [1 , 2 , 3]
 for (let i = arr.length; i >= 0; i--) {
      console.log(arr[i])
 }
-*/
+
 
 /* EXERCISE 2
 Write the code to get the maximum value in an array.
 */
 
-/*
+
 let max = 0
 let arr = [ 1, 20 ,4350 ,40 , 10000000]
 for (let i = 0; i < arr.length; i++) {
@@ -34,13 +34,13 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 console.log(max)
-*/
+
 
 /* EXERCISE 3
 Write the code to get the minimum value in an array.
 */
 
-/*
+
 var arr = [3453455,345345,345,3454,453];
 var min = arr[0];
 for(var i = 0; i < arr.length; i++){
@@ -50,26 +50,26 @@ for(var i = 0; i < arr.length; i++){
 }
 
 console.log(min);
-*/
+
 
 /* EXERCISE 4
 Write the code to get only even numerical values in an array.
 */
 
-/*
+
 let arr = [1 ,3 ,5 ,5654, 64, 63, 676, 100 ,200]
 for (let i = 0; i < arr.length; i++) {
     if (arr[i]%2 === 0) {
         console.log(arr[i])
     }
 }
-*/
+
 
 /* EXERCISE 5
 Write the code to delete even entries from an array.
 */
 
-/*
+
 let arr = [1 ,3 ,5 ,5654, 64, 63, 676, 100 ,200]
 for (let i = 0; i < arr.length; i++) {
     if (arr[i]%2 === 1) {
@@ -77,7 +77,7 @@ for (let i = 0; i < arr.length; i++) {
         console.log(arr[i])
     }
 }
-*/
+
 
 
 /* EXERCISE 6
@@ -102,26 +102,26 @@ console.log(str)
 Write the code to increase all the numeric values in a array by 1.
 */
 
-/*
+
 let arr = [1 ,3 ,5 ,5654, 64, 63, 676, 100 ,200]
 for (let i = 0; i < arr.length; i++) {
     arr[i] += 1
     console.log(arr[i])
 }
-*/
+
 
 /* EXERCISE 8 
 Replace all the strings in an array with their length.
 es.: ["strive", "is", "great"] => [6, 2, 5]
 */
 
-/*
+
 let arr = ["strive", "is", "great"]
 for (let i = 0; i < arr.length; i++) {
     arr[i] = arr[i].length
 }
 console.log(arr)
-*/
+
 
 /* WHEN YOU ARE FINISHED
 Send the code on the Eduflow platform. In the next days we'll also learn how to use GIT
