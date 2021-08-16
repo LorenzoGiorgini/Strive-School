@@ -6,7 +6,7 @@
  let gender = isMale ? console.log("male") : console.log("female")
 */
 
-/*
+
  2. Write code to check from two given integers whether one of them is 8 or their sum or difference is 8.
  let num1 = 10
  let num2 = 8
@@ -17,7 +17,7 @@
  if (num1 === 8 || num2 === 8 || sum === 8 || sub === 8){
     console.log("one of the numbers is 8")
  }
-*/
+
 
 /*
   3. Create a variable which concatenates two strings.
@@ -25,7 +25,7 @@
   console.log(word)
 */
 
-/*
+
 4.Write a JavaScript conditional statement to sort three numbers. Display the result in the console.
 var x= 20;
 var y=-31;
@@ -63,18 +63,20 @@ else if (z>x && z>y)
             console.log(z + ", " + y + ", " +x);
         }
 }        
-*/
+
 
 /*
  5. Write code to find the average of two given integers.
+ */
  let x = 28
  let y = 390
  let average = 0
  average = x + y / 2
-*/
+
 
 /* 
   6. Find the longest of two given strings
+*/
   let name1 = "josh"
   let name2 = "gabriele"
   if (name1 > name2){
@@ -90,7 +92,7 @@ else if (z>x && z>y)
   } else if (name2 < name1){
       console.log("name 2 is shorter than name1")
   }
-*/
+
 
 /*
  7. Write code to check whether a value is an integer or not.
@@ -103,10 +105,11 @@ else if (z>x && z>y)
 
 /*
  9. Write code to check if a given number is even or odd.
+*/
+
  let num1 = 25
  if ( num1%2 === 0){
      console.log("the number is even")
  } else {
      console.log("the number is odd")
  }
-*/
