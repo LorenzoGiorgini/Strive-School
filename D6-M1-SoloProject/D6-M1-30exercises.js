@@ -1,7 +1,7 @@
 const movies = [
   {
     Title: "The Lord of the Rings: The Fellowship of the Ring",
-    Year: "2001",
+    Year: "2001",                                                     
     imdbID: "tt0120737",
     Type: "movie",
     Poster:
@@ -12,7 +12,7 @@ const movies = [
     Year: "2003",
     imdbID: "tt0167260",
     Type: "movie",
-    Poster:
+    Poster:                                                      
       "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
   },
   {
