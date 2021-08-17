@@ -28,9 +28,11 @@ changeFooter()
 
 
 function changeAmazonLinks() {
-  let amazonLink = document.querySelector("#merch a");
+  let amazonLink = document.querySelectorAll("#merch a");
   console.log(amazonLink)
-  amazonLink.classList.add("amazonLinks")
+  for (let i = 0; i < amazonLink.length; i++) {
+    amazonLink[i].classList.add("amazonLinks")
+  }
 }
 
 changeAmazonLinks()
