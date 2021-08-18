@@ -148,8 +148,8 @@
       const makeItClickable = function () {
         let changeHeaderColor = document.getElementsByTagName("header")[0]
         let colors = ["blue" , "orange" , "violet", "purple"]
-        let randomize = Math.floor(Math.random() * colors.length)
         changeHeaderColor.addEventListener("click" , ()=>{
+          let randomize = Math.floor(Math.random() * colors.length)
           changeHeaderColor.style.background = colors[randomize]
         })
       };
