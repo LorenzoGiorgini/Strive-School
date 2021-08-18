@@ -149,8 +149,7 @@
         let changeHeaderColor = document.getElementsByTagName("header")[0]
         let colors = ["blue" , "orange" , "violet", "purple"]
         changeHeaderColor.addEventListener("click" , ()=>{
-          let randomize = Math.floor(Math.random() * colors.length)
-          changeHeaderColor.style.background = colors[randomize]
+          changeHeaderColor.style.background = colors[Math.floor(Math.random() * colors.length)]
         })
       };
 
@@ -161,15 +160,19 @@
       */
 
       const changeFooterText = function () {
-        //
+        let footer = document.getElementsByTagName("footer")[0]
+        footer.addEventListener("click" , ()=> {
+        footer.innerText = "fake text"
+        })
       };
+
+      changeFooterText()
 
       /* EXERCISE 11
       Attach an event listener to the input field in the page for console logging its value just after any keystroke.
       */
 
       const inputField = document.getElementById("input-field");
-      // ...
 
       /* EXERCISE 12
       Create a new welcome alert message when the page successfully loads.
