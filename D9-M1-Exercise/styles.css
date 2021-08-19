@@ -1,0 +1,35 @@
+* {
+margin: 0 auto;
+background: rgb(46, 44, 44);
+color: rgb(255, 255, 255);
+font-family: 'Oswald', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#number-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(10, 52px);
+}
+
+.numbers {
+    background-color: rgb(112, 112, 112);
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.numbers:hover{
+    background: rgb(255, 255, 255);
+    color: black;
+}
