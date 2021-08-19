@@ -33,3 +33,13 @@ randomizeBingoNumbers()
 
 
 createNumbersDiv(24 , "numbers-user" , "user-random-numbers")
+
+function randomUserDivs() {
+    let containerUserNode = document.getElementsByClassName("numbers-user")
+    for (let i = 0; i <= containerUserNode.length; i++) {
+        let randomNum = Math.floor(Math.random() * 76) + 1
+        containerUserNode[i].innerText = randomNum
+    }
+}
+
+randomUserDivs()
