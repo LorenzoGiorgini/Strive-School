@@ -12,10 +12,13 @@ function createNumbersDiv() {
 createNumbersDiv()
 
 function randomizeBingoNumbers() {
-    for (let i = 1; i < 76; i++) {
-        
-    }
+    let button = document.getElementById("random-number")
+    button.addEventListener("click" , ()=>{
+        Math.floor(Math.random() * 76) + 1
+    })
 }
+
+randomizeBingoNumbers()
 
 function highlightedBingoBoard() {
     
