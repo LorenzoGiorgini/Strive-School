@@ -12,7 +12,11 @@ function createNumbersDiv() {
 createNumbersDiv()
 
 function randomizeBingoNumbers() {
-    for (let i = 0; i < 76; i++) {
-
+    for (let i = 1; i < 76; i++) {
+        
     }
+}
+
+function highlightedBingoBoard() {
+    
 }

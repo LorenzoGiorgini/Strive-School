@@ -33,3 +33,20 @@ h1 {
     background: rgb(255, 255, 255);
     color: black;
 }
+
+#random-number {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#random-number:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
