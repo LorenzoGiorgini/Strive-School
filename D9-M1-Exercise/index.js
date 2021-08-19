@@ -1,15 +1,15 @@
-function createNumbersDiv() {
-    let containerNode = document.getElementById("number-container")
-    for (let i = 1; i <= 76; i++) {
+function createNumbersDiv(maxToGenerate, className , father) {
+    let containerNode = document.getElementById(father)
+    for (let i = 1; i <= maxToGenerate; i++) {
         let newDiv = document.createElement("div")
         newDiv.innerText = i
-        newDiv.classList.add("numbers")
+        newDiv.classList.add(className)
 
         containerNode.appendChild(newDiv)
     }
 }
 
-createNumbersDiv()
+createNumbersDiv(76 , "numbers" , "number-container")
 
 function randomizeBingoNumbers() {
     let button = document.getElementById("random-number")
@@ -20,7 +20,6 @@ function randomizeBingoNumbers() {
             let randomNum = Math.floor(Math.random() * 76)
             if (allDivs[randomNum].className !== "numbers selectedNum") {
                 allDivs[randomNum].classList.add("selectedNum")
-                console.log(allDivs[randomNum].innerText)
                 break
             }
             if (count > 76) {
@@ -32,3 +31,5 @@ function randomizeBingoNumbers() {
 }
 randomizeBingoNumbers()
 
+
+createNumbersDiv(24 , "numbers-user" , "user-random-numbers")

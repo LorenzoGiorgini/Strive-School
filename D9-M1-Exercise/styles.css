@@ -55,3 +55,21 @@ h1 {
     background: turquoise;
     color: black;
 }
+
+#user-random-numbers {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(10, 52px);
+}
+
+.numbers-user {
+    background-color: rgb(112, 112, 112);
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+}
