@@ -50,3 +50,8 @@ h1 {
     background: rgb(255, 255, 255);
     color: black;
 }
+
+.selectedNum {
+    background: turquoise;
+    color: black;
+}
