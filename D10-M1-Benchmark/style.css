@@ -1,0 +1,38 @@
+table ,td {
+    border: 1px solid rgb(51, 255, 0);
+    border-radius: 3%;
+}
+
+tr {
+    outline: 2px dotted red;
+}
+
+body {
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
+
+#main-container {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+p {
+    margin: 25px;
+}
+
+.bolder-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hidden { 
+    visibility: hidden;
+}
