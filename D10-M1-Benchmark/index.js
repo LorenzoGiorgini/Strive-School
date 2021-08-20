@@ -68,4 +68,35 @@
 
         // 29) Create a function that gets 2 arrays and returns the longest one
 
+        function longestArray(_array1 , _array2) {
+            if (_array1.length > _array2.length) {
+                return _array1
+            } else {
+                return _array2
+            }
+        }
+
+        let array1 = [1 , 34 ,445 ,556 ,656 ,656 ,443 ,4343]
+        let array2 = [4 ,45, 545, 545 ,545, 54 , 4343]
+
+        console.log(longestArray(array1 , array2))
+
         // 30) Create a function that gets 2 arrays of numbers and returns the one with the higher sum of values
+
+        function higherSumOfNum(_array1 , _array2) {
+            let _array1sum = 0
+            let _array2sum = 0
+            for (let i = 0; i < _array1.length; i++) {
+                _array1sum += _array1[i]
+            } 
+            for (let j = 0; j < _array2.length; j++) {
+                _array2sum += _array2[j]
+            }
+            if (_array1sum > _array2sum) {
+                return _array1
+            } else {
+                return _array2
+            }
+        }
+
+        console.log(higherSumOfNum(array1 , array2))
