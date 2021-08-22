@@ -5,3 +5,17 @@ table , tr , td{
 a {
     text-decoration: none;
 }
+
+#form-field { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    margin-top: 10px;
+}
+
+label {
+    margin-top: 10px;
+}
