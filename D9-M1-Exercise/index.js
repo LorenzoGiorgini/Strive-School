@@ -14,10 +14,12 @@ createNumbersDiv(76 , "numbers" , "number-container")
 function randomizeBingoNumbers() {
     let button = document.getElementById("random-number")
     let allDivs = document.getElementsByClassName("numbers")
+    let randomNumText = document.getElementById("random-num")
     button.addEventListener("click" , ()=>{
         let count = 0
         for (; ;) {
             let randomNum = Math.floor(Math.random() * 76)
+            randomNumText.innerText =  `Number is : ${randomNum + 1}` 
             if (allDivs[randomNum].className !== "numbers selectedNum") {
                 allDivs[randomNum].classList.add("selectedNum")
                 break
