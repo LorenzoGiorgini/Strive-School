@@ -11,7 +11,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-#number-container {
+.number-container {
     display: grid;
     justify-content: center;
     align-content: center;
@@ -95,4 +95,22 @@ h1 {
 
 #user-board-button {
     margin-bottom: 20px;
+}
+
+#random-number-user {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+
+#random-number-user:hover {
+    background: rgb(255, 255, 255);
+    color: black;
 }
